@@ -8,7 +8,7 @@ This repository contains a comprehensive Postman test collection for the [Trello
 * **Collection Runner:** For executing the full regression suite.
 
 ## 📑 Test Planning
-Before automation, a detailed Test Execution Schedule was created to define **dependencies** and data flow based on the technical requirements.
+Before automation, a detailed Test Execution Schedule was created to define dependencies and data flow based on the technical requirements.
 * 📄 **[View the Test Execution Plan](Test_Execution_Plan.xlsx)**
 
 ## 🧪 Key Features & Skills Demonstrated
