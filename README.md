@@ -29,9 +29,8 @@ Before automation, a detailed Test Execution Schedule was created to define depe
 * **Performance Testing:** A collection-level script ensures acceptable response times (< 2000ms) for all requests.
 
 ### 3. Authentication Handling
-* **Secure Variable Use:** API Key and Token are managed via Collection Variables (not hardcoded in URLs), demonstrating security best practices.
-* **Pre-request Scripts:** Automatically appending authentication parameters to requests to keep the URLs clean and secure.
-
+* **Secure Variable Use:** API Key and Token are managed via Collection Variables and referenced directly in requests using Query Parameters (e.g., `?key={{key}}&token={{token}}`), ensuring security and reusability without hardcoding credentials.
+  
 ## 📂 Test Scenario Flow
 
 The collection follows a logical execution order based on Trello's data hierarchy:
