@@ -1,5 +1,8 @@
 # Trello API Test Automation 📋
 
+![Test Status](https://img.shields.io/badge/Tests%20Passed-133-success)
+![Failures](https://img.shields.io/badge/Failures-0-brightgreen)
+
 This repository contains a comprehensive Postman test collection for the [Trello REST API](https://developer.atlassian.com/cloud/trello/rest/). This project demonstrates an **End-to-End (E2E)** testing scenario simulating a complete user journey for managing Boards, Lists, Cards, and Checklists.
 
 ## 🛠️ Tools & Technologies
