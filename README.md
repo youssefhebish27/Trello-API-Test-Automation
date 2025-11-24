@@ -53,7 +53,7 @@ The collection follows a logical execution order based on Trello's data hierarch
 ## 🚀 How to Run
 
 1.  **Clone** this repository.
-2.  **Import** the `Trello Project.postman_collection.json` file into Postman.
+2.  **Import** the `Trello-API-Automation.postman_collection.json` file into Postman.
 3.  **Configure Variables:**
     * Select the collection and go to the **Variables** tab.
     * Set `base_url` to `https://api.trello.com/1`.
