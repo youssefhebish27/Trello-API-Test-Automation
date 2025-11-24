@@ -5,6 +5,8 @@
 
 This repository contains a comprehensive Postman test collection for the [Trello REST API](https://developer.atlassian.com/cloud/trello/rest/). This project demonstrates an **End-to-End (E2E)** testing scenario simulating a complete user journey for managing Boards, Lists, Cards, and Checklists.
 
+> **🏆 Project Result:** 133 Automated Tests Executed Successfully with 0 Failures.
+
 ## 🛠️ Tools & Technologies
 * **Postman:** For API request creation, execution, and automation.
 * **JavaScript (Postman Sandbox):** For writing complex test scripts and logic.
