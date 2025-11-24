@@ -16,10 +16,10 @@ Before automation, a detailed Test Execution Schedule was created to define depe
 ### 1. Advanced Request Chaining (Workflow)
 * **Dynamic Data Handling:** The collection automatically captures IDs (Board, List, Card, Checklist) from responses and stores them in **Collection Variables** to be used in subsequent requests.
 * **Full Hierarchy Testing:**
-    * **Board:** Create -> Get -> Update -> Delete -> Verify Deletion.
-    * **List:** Create -> Get -> Update -> Archive -> Verify Archive -> Unarchive.
-    * **Card:** Create -> Get -> Update -> Delete.
-    * **Checklist:** Create -> Get -> Update -> Delete.
+    * **Board:** Create -> Get -> Update -> Verify Update -> Delete -> Verify Deletion.
+    * **List:** Create -> Get -> Update -> Verify Update -> Archive -> Verify Archive -> Unarchive -> Verify Unarchive.
+    * **Card:** Create -> Get -> Update -> Verify Update -> Delete -> Verify Deletion.
+    * **Checklist:** Create -> Get -> Update -> Verify Update -> Delete -> Verify Deletion.
 
 ### 2. Advanced Scripting & Validation
 * **Dynamic Assertions:** Tests compare response data against stored variables (e.g., checking if the returned name matches the *updated* name stored in the previous step) rather than static hardcoded values.
